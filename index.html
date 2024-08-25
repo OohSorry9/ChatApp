@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script defer src="client/script.js"></script>
+</head>
+
+<body>
+    <div class="card active" id="card">
+        <form action="" id="nameForm">
+    
+                <label for="name"> Enter Your Name</label>
+                <input  required type="text" id="name">
+            <button type="submit">Join.</button>
+        </form>
+    </div>
+
+    <div class="app unactive" id="app">
+
+        <div class="title">
+            <div class="logo">
+                <img src="../assets/2986190_chatapp_logo_media_social_icon.png" alt="LOGO">
+            </div>
+            <div class="titleText"><h1>CHAT APP</h1> ISI Proof Chat (no triple dot)</div>
+
+        </div>
+
+
+        <div class="container">
+            <div class="message-history">
+
+            </div>
+            <div class="sendBox">
+
+                <form action="#" id="form">
+                    <input id="msgInput" type="text" placeholder="Your Message" class="input">
+                    <button id="sendBtn" type="submit" class="btn">Send</button>
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

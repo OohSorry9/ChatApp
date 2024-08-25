@@ -1,0 +1,27 @@
+@media screen and (max-width: 480px) {
+
+
+    .text p{
+        font-size: 12px;
+    }
+    .userInfo{
+        width: 100px;
+    }
+    .userInfo h3{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-height: 760px) {
+    .message-history{
+        height: 100%
+    }
+
+    .text p{
+        font-size: 18px;
+    }
+
+    body{
+        overflow-y: scroll;
+    }
+}
